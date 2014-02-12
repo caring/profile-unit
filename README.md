@@ -16,6 +16,10 @@ Add `ProfilingHelper` to your `test_helper.rb`.
   end
 ```
 
+Make sure to set the test runner to see the test output:
+
+````
 rake test:units TESTOPTS="-- --runner=profiling"
 rake test:functionals TESTOPTS="--runner=profiling"
 rake test:integration TESTOPTS="--runner=profiling"
+```

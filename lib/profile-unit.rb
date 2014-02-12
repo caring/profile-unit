@@ -1,3 +1,4 @@
+require 'test/unit/autorunner'
 require 'profile-unit/profiling_helper'
 require 'profile-unit/profiling_runner'
 
